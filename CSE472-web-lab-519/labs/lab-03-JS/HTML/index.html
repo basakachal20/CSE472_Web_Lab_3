@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop Registration</title>
+</head>
+
+<body>
+
+    <h1>Welcome to the Registration Workshop</h1>
+
+    <p>This is the Student Workshop Registration System.</p>
+
+    <hr>
+
+    <h2>Workshop Registration</h2>
+
+    <label for="studentName">Full Name</label>
+    <input type="text" id="studentName" name="studentName">
+
+    <br><br>
+
+    <button type="button" onclick="checkRegistration()">
+        Check Registration Status
+    </button>
+
+    <p id="registrationStatus">
+        Click the button to check the status.
+    </p>
+
+    <button type="button" onclick="checkSeats()">
+        Check Seat Availability
+    </button>
+
+    <p id="seatMessage">
+        Seat information will appear here.
+    </p>
+
+    <button type="button" onclick="showGreeting()">
+        Show Greeting
+    </button>
+
+    <p id="greetingMessage"></p>
+
+    <button type="button" onclick="showVenue()">
+        Show Venue
+    </button>
+
+    <p id="venueMessage"></p>
+
+
+    <script src="../js/script.js"></script>
+
+</body>
+</html>
